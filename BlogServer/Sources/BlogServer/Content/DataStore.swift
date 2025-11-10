@@ -7,7 +7,7 @@ enum DataStore {
     private static let queue = DispatchQueue(label: "DataStore.queue")
 
     // How often we check for changes (seconds)
-    private static let reloadInterval: TimeInterval = 2.0
+    private static let reloadInterval: TimeInterval = 86400
 
     // MARK: - State
 
